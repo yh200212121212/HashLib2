@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="1e01d77a-fd23-4a18-aa61-45164005e3da" Title="HashLib" Url="html/9edbb47a-1ce1-88cc-aa41-2b33a72e647c.htm">
-    <HelpTOCNode Id="ce42a5e1-ffed-4326-8720-8a36668a0264" Title="HashLib Class" Url="html/8624aeb0-16d9-df21-a039-d2d2580ece42.htm">
+  <HelpTOCNode Id="4ce627d3-8051-490b-8b6f-9e7fcf079927" Title="HashLib" Url="html/9edbb47a-1ce1-88cc-aa41-2b33a72e647c.htm">
+    <HelpTOCNode Id="68e33e42-d3af-47af-a0b9-a0089ab669ee" Title="HashLib Class" Url="html/8624aeb0-16d9-df21-a039-d2d2580ece42.htm">
       <HelpTOCNode Title="HashLib Constructor " Url="html/38c9bc2a-bee0-8216-1923-ce862e04bb23.htm" />
-      <HelpTOCNode Id="0b25b83c-2c47-46c0-a7f9-a20e6f13bcd1" Title="HashLib Methods" Url="html/8bf7053d-9795-f901-37a0-09339cdb2480.htm">
-        <HelpTOCNode Id="79d9fd43-9d23-48d8-9842-229849501871" Title="hash_salt2 Method " Url="html/5bd5e8fe-d8b7-14fb-d62d-ec401692506c.htm">
+      <HelpTOCNode Id="24f9ba4f-17a7-4eb2-b5e7-296e7077c938" Title="HashLib Methods" Url="html/8bf7053d-9795-f901-37a0-09339cdb2480.htm">
+        <HelpTOCNode Id="939e4718-528b-4891-b010-272b278db329" Title="hash_salt2 Method " Url="html/5bd5e8fe-d8b7-14fb-d62d-ec401692506c.htm">
           <HelpTOCNode Title="hash_salt2 Method (Int32[])" Url="html/c927c80d-510b-04e4-db47-18bc63cee34e.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String)" Url="html/aafaef35-e125-ddce-2f20-42cd270b3477.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String, Object)" Url="html/0bf27dcb-b850-ce94-e25d-07e9dcf1143e.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5147b19b-81bf-49b2-a2e2-3917ba295f93" Title="hash2 Method " Url="html/6264d98e-98f9-ed89-fa32-702ba7d05566.htm">
+        <HelpTOCNode Id="f71938d9-22a3-48c5-b672-ad8bee905282" Title="hash2 Method " Url="html/6264d98e-98f9-ed89-fa32-702ba7d05566.htm">
           <HelpTOCNode Title="hash2 Method (Int32[])" Url="html/a6dd5393-4800-bf57-3e43-bb98f1d45192.htm" />
           <HelpTOCNode Title="hash2 Method (String)" Url="html/b2182104-8bc7-98a0-e98f-8faa01626f7b.htm" />
           <HelpTOCNode Title="hash2 Method (String, Object)" Url="html/d422fc29-23ab-8e38-f83f-b4c0a0b28e30.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="63e58552-cdf3-4270-beac-b496e95b0895" Title="HashLib Fields" Url="html/98a63f5f-9628-b07b-45ef-83287cb9ad8e.htm">
+      <HelpTOCNode Id="8f4027d6-6444-46e5-b405-8ca8011483bf" Title="HashLib Fields" Url="html/98a63f5f-9628-b07b-45ef-83287cb9ad8e.htm">
         <HelpTOCNode Title="N Field" Url="html/83773905-0c26-e17e-fe69-a44619a28aed.htm" />
         <HelpTOCNode Title="OutputArraryLen Field" Url="html/c8b10ac7-263e-6ffa-9c2c-edd46767bd47.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ff1500ba-d02c-401a-941a-11b308dd7d80" Title="IHashLib Interface" Url="html/a8462047-5b18-0135-f2fe-bdbd34668e73.htm">
-      <HelpTOCNode Id="da3dc0ae-e136-4278-989c-0ef97ab2e1da" Title="IHashLib Methods" Url="html/e09911c0-4e5c-7499-68e4-ebbf28b67f1b.htm">
-        <HelpTOCNode Id="279d8de4-616c-497a-8535-6ff946c2ce92" Title="hash_salt2 Method " Url="html/a6bfacf3-48ae-36d5-9e56-3e1064163a43.htm">
+    <HelpTOCNode Id="2192d5eb-8374-4480-aac2-f8880a17dee1" Title="IHashLib Interface" Url="html/a8462047-5b18-0135-f2fe-bdbd34668e73.htm">
+      <HelpTOCNode Id="bc9aa119-0313-43ff-b75e-9fb325dff1ef" Title="IHashLib Methods" Url="html/e09911c0-4e5c-7499-68e4-ebbf28b67f1b.htm">
+        <HelpTOCNode Id="9aba1561-539b-443b-b1c2-5cd5b45a8f40" Title="hash_salt2 Method " Url="html/a6bfacf3-48ae-36d5-9e56-3e1064163a43.htm">
           <HelpTOCNode Title="hash_salt2 Method (Int32[])" Url="html/f6c7746e-48e9-0a21-5bf7-3334ded98691.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String)" Url="html/21e4347a-18da-e65e-6124-4d89f0ee3871.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String, Object)" Url="html/84abdd66-8a93-5803-58fa-5593fb057f69.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="bedcf6a1-3855-4c05-acf3-81ccb919084d" Title="hash2 Method " Url="html/7ef8d4f0-c1ec-a86f-d1a5-16681331b081.htm">
+        <HelpTOCNode Id="957d2dbc-5c0c-4cd6-9423-5ccb73bdf7bc" Title="hash2 Method " Url="html/7ef8d4f0-c1ec-a86f-d1a5-16681331b081.htm">
           <HelpTOCNode Title="hash2 Method (Int32[])" Url="html/57a0bb4e-a48c-8878-2481-bbdd02fe3bb7.htm" />
           <HelpTOCNode Title="hash2 Method (String)" Url="html/98ff2d00-be30-bd5a-9dee-58c8a3651b9c.htm" />
           <HelpTOCNode Title="hash2 Method (String, Object)" Url="html/e98df29d-3858-49aa-3c21-5390ed1d5311.htm" />
@@ -36,34 +36,34 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="8e8ab74e-85dd-49fb-b0e9-8514fb811c94" Title="HashLib2" Url="html/9248e63d-7b9d-8b27-c5ee-aca55a7b53de.htm">
-    <HelpTOCNode Id="92b08a49-9944-4d42-b94d-5f451f5ce876" Title="HashLib Class" Url="html/bfb2bdf1-bbb6-7e63-614e-d45fec7233cb.htm">
+  <HelpTOCNode Id="40e0c70d-793a-4503-b899-421ddf1574b5" Title="HashLib2" Url="html/9248e63d-7b9d-8b27-c5ee-aca55a7b53de.htm">
+    <HelpTOCNode Id="074a5d30-2a7c-4755-a0e6-4995c42fc068" Title="HashLib Class" Url="html/bfb2bdf1-bbb6-7e63-614e-d45fec7233cb.htm">
       <HelpTOCNode Title="HashLib Constructor " Url="html/bad9d1d3-19f3-3939-a7c1-78ef4772ba76.htm" />
-      <HelpTOCNode Id="21a9166c-bc2a-4844-83a2-6fd5c6fbfb7f" Title="HashLib Methods" Url="html/ce6108ac-52fa-7d54-d402-1a3eaad2d8cd.htm">
-        <HelpTOCNode Id="a1021959-a951-4c0e-a7bc-4904f347c8ac" Title="hash_salt2 Method " Url="html/fac33a0e-ea95-9d61-76b5-d2c586a77c1b.htm">
+      <HelpTOCNode Id="9eb24c9e-1c57-42b4-b101-f99e566e34b9" Title="HashLib Methods" Url="html/ce6108ac-52fa-7d54-d402-1a3eaad2d8cd.htm">
+        <HelpTOCNode Id="1ce5e2ae-14ea-4310-9609-12340feb1783" Title="hash_salt2 Method " Url="html/fac33a0e-ea95-9d61-76b5-d2c586a77c1b.htm">
           <HelpTOCNode Title="hash_salt2 Method (Int32[])" Url="html/82e99d77-bffe-dc6c-7db7-b8dec661de63.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String)" Url="html/f988b1c1-daaa-d4be-c08d-180e599fac81.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String, Object)" Url="html/2dc302bf-c550-4db6-f005-95308ebd222b.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2b1abde2-5277-47b7-995e-cb624bc75f8c" Title="hash2 Method " Url="html/0efd8948-59b1-33ba-972c-57d54fec6ff8.htm">
+        <HelpTOCNode Id="6801fdc7-5807-4cc5-aaef-498e8c89033d" Title="hash2 Method " Url="html/0efd8948-59b1-33ba-972c-57d54fec6ff8.htm">
           <HelpTOCNode Title="hash2 Method (Int32[])" Url="html/96f03f1a-a170-863b-cb45-abacea9b6cc0.htm" />
           <HelpTOCNode Title="hash2 Method (String)" Url="html/dbed16bc-3546-a42c-d2c8-e4cb8417eec2.htm" />
           <HelpTOCNode Title="hash2 Method (String, Object)" Url="html/1ef34ab2-4177-dc71-8b86-699f6b5e8a64.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="641fd30b-94a3-48c9-acf1-d44c469b9ff4" Title="HashLib Fields" Url="html/4f2d8841-7ab4-d682-0e84-dc2d50e1e5c1.htm">
+      <HelpTOCNode Id="fb97a6a3-37ae-4900-9a3f-0443f199f8d5" Title="HashLib Fields" Url="html/4f2d8841-7ab4-d682-0e84-dc2d50e1e5c1.htm">
         <HelpTOCNode Title="N Field" Url="html/f2456211-770e-07bf-464a-d9daf65320a8.htm" />
         <HelpTOCNode Title="OutputArraryLen Field" Url="html/0f64cf93-72d1-fc8e-18c4-6af56d93862d.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="45824b57-23e2-4a80-80cf-4bc42ee72fb1" Title="IHashLib Interface" Url="html/6229bd9c-03d0-afb6-9a2a-94deb98b4aa2.htm">
-      <HelpTOCNode Id="4bf10c08-27b0-4107-af6c-38ebac82eaf2" Title="IHashLib Methods" Url="html/e65ae394-d4cc-5703-0532-af92802de041.htm">
-        <HelpTOCNode Id="7414cc1b-52a2-430c-ba16-a0bd5d0f559d" Title="hash_salt2 Method " Url="html/ed7976d4-20f6-e68c-2654-c56f0377106b.htm">
+    <HelpTOCNode Id="04df08c0-c9eb-407a-8238-c2465cf9c0a8" Title="IHashLib Interface" Url="html/6229bd9c-03d0-afb6-9a2a-94deb98b4aa2.htm">
+      <HelpTOCNode Id="6785f4a5-2a82-4c37-8fa1-7e0633f987d1" Title="IHashLib Methods" Url="html/e65ae394-d4cc-5703-0532-af92802de041.htm">
+        <HelpTOCNode Id="51773dec-2650-4c31-89da-d57fed9f3b21" Title="hash_salt2 Method " Url="html/ed7976d4-20f6-e68c-2654-c56f0377106b.htm">
           <HelpTOCNode Title="hash_salt2 Method (Int32[])" Url="html/e96ad4df-82ae-9fd0-72cd-5f7511e0aea0.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String)" Url="html/79a63af2-8ee5-2db5-e3c1-09c51e0aec19.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String, Object)" Url="html/f68bffba-efdc-59f3-27f3-f035d8d0577e.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e953822a-21f7-44c7-aa8a-dfa63b4c9e05" Title="hash2 Method " Url="html/a48bf1d2-2b5b-68e3-ffd7-b056da21a28a.htm">
+        <HelpTOCNode Id="1ee08577-7fcd-49c5-823d-6212af7edf30" Title="hash2 Method " Url="html/a48bf1d2-2b5b-68e3-ffd7-b056da21a28a.htm">
           <HelpTOCNode Title="hash2 Method (Int32[])" Url="html/d9e5cd00-3d83-92e2-6347-5f3b1c60fff2.htm" />
           <HelpTOCNode Title="hash2 Method (String)" Url="html/c42a010f-b56c-9a17-764e-f086499b6cd3.htm" />
           <HelpTOCNode Title="hash2 Method (String, Object)" Url="html/0a822b38-76ad-e8f3-2f32-37db9370e6eb.htm" />
@@ -71,34 +71,34 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="28486448-03e8-4f03-b42c-97e9e2a68270" Title="HashLib3" Url="html/d4c18c88-b189-dd3c-f339-793ecdd785c3.htm">
-    <HelpTOCNode Id="8e233cf0-fe77-4d9c-9189-c0c69b74ee50" Title="HashLib Class" Url="html/9bf4f6a4-ef14-a76d-8f90-062efc7c4b0a.htm">
+  <HelpTOCNode Id="43a9ac1c-3933-4988-ba90-ff04c2d8275d" Title="HashLib3" Url="html/d4c18c88-b189-dd3c-f339-793ecdd785c3.htm">
+    <HelpTOCNode Id="ceda349c-00c2-4af1-b48e-749af368d261" Title="HashLib Class" Url="html/9bf4f6a4-ef14-a76d-8f90-062efc7c4b0a.htm">
       <HelpTOCNode Title="HashLib Constructor " Url="html/e10bad30-20b2-865f-631e-54d16cc76c73.htm" />
-      <HelpTOCNode Id="9225ca89-acd5-47cc-9c05-b0a9e5778cd3" Title="HashLib Methods" Url="html/a2c03982-a778-046a-d85e-58ce677df8e5.htm">
-        <HelpTOCNode Id="46563bbc-7f67-4de0-83be-a5ca7d45d53f" Title="hash_salt2 Method " Url="html/9f6d2425-2555-9abe-0fe0-fb056f63b2fd.htm">
+      <HelpTOCNode Id="d268d62e-af46-45a7-b691-7f514f6ff526" Title="HashLib Methods" Url="html/a2c03982-a778-046a-d85e-58ce677df8e5.htm">
+        <HelpTOCNode Id="66d6fdc7-72d6-49d4-8df9-bd5d81481727" Title="hash_salt2 Method " Url="html/9f6d2425-2555-9abe-0fe0-fb056f63b2fd.htm">
           <HelpTOCNode Title="hash_salt2 Method (Int32[])" Url="html/d20c5657-68f6-0639-3b22-63c5428d5a87.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String)" Url="html/c0d0bcc3-b432-8f97-9225-6e6696534141.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String, Object)" Url="html/9da1bf9f-6020-e3eb-801f-f587eb108bb4.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2e13a6fa-5a17-4c17-9b3e-55ceae68d979" Title="hash2 Method " Url="html/d50613f3-7f3d-85a7-b5ac-2fba168da676.htm">
+        <HelpTOCNode Id="43c5e7b3-12ce-4fd9-b4a6-9c17ede8f954" Title="hash2 Method " Url="html/d50613f3-7f3d-85a7-b5ac-2fba168da676.htm">
           <HelpTOCNode Title="hash2 Method (Int32[])" Url="html/3de34cda-a019-522e-1f51-97032f4c9ebe.htm" />
           <HelpTOCNode Title="hash2 Method (String)" Url="html/3f497420-a3b3-4ef2-2df6-2eb52285b147.htm" />
           <HelpTOCNode Title="hash2 Method (String, Object)" Url="html/7b7faaa5-3d18-bef7-dd60-abc10ddcf486.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bc41a2e5-9c51-4617-abdc-36cc62fd05e2" Title="HashLib Fields" Url="html/b06da7ac-9341-3694-6e6a-f327d8af9142.htm">
+      <HelpTOCNode Id="53aac489-c87e-43cb-b391-1463441edb6c" Title="HashLib Fields" Url="html/b06da7ac-9341-3694-6e6a-f327d8af9142.htm">
         <HelpTOCNode Title="N Field" Url="html/967b186c-a2f3-af4b-c539-aa9c5a469b17.htm" />
         <HelpTOCNode Title="OutputArraryLen Field" Url="html/a9d584fa-bfef-bf84-fb6e-d2eb4b2e3525.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6a8e8917-5a66-4c2f-8e6e-08de54b07864" Title="IHashLib Interface" Url="html/bad9e45b-5d99-5c04-3317-3e6dd48de252.htm">
-      <HelpTOCNode Id="69628956-5ab9-41b4-b65a-347b484c5baf" Title="IHashLib Methods" Url="html/fb723333-6fd6-d22e-43d6-f5e0ca327c74.htm">
-        <HelpTOCNode Id="efce3c09-9955-410f-9bdf-8afcae7823f8" Title="hash_salt2 Method " Url="html/59045072-d142-2476-2d61-5912f64d3200.htm">
+    <HelpTOCNode Id="1d1e0775-e7cc-48f2-b0e1-4776fec3b08c" Title="IHashLib Interface" Url="html/bad9e45b-5d99-5c04-3317-3e6dd48de252.htm">
+      <HelpTOCNode Id="4d7afda9-3421-462d-ab2a-e85b45230714" Title="IHashLib Methods" Url="html/fb723333-6fd6-d22e-43d6-f5e0ca327c74.htm">
+        <HelpTOCNode Id="515da376-4800-4cea-a264-acbf4d98308d" Title="hash_salt2 Method " Url="html/59045072-d142-2476-2d61-5912f64d3200.htm">
           <HelpTOCNode Title="hash_salt2 Method (Int32[])" Url="html/7747f1b5-7439-9ac4-67eb-4e5bd842b1cd.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String)" Url="html/cb41331a-6f47-01db-fe46-2729c5b4c621.htm" />
           <HelpTOCNode Title="hash_salt2 Method (String, Object)" Url="html/04ec1c15-87db-db03-bb1a-1d671824523d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a35e3e63-b5e8-4d60-9054-ba2179cd9542" Title="hash2 Method " Url="html/3bf687d6-0594-db95-a73c-5fc677b27fc5.htm">
+        <HelpTOCNode Id="6bf8e337-82d2-4f42-951a-e97fb828dd5f" Title="hash2 Method " Url="html/3bf687d6-0594-db95-a73c-5fc677b27fc5.htm">
           <HelpTOCNode Title="hash2 Method (Int32[])" Url="html/17591427-d12c-25d5-068f-ff8e8232cfd3.htm" />
           <HelpTOCNode Title="hash2 Method (String)" Url="html/1b4d4cfd-402b-0460-f857-c82c4ed88143.htm" />
           <HelpTOCNode Title="hash2 Method (String, Object)" Url="html/72e2cc96-7d97-7e6d-ce32-1bbbecec9062.htm" />

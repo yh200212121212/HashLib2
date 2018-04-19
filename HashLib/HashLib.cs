@@ -40,11 +40,11 @@ namespace HashLib
         /// <param name="input">输入/输出数据，In/Out。</param>
         private void hash(ref int[] input)
         {
-            input[0] = (input[input.Length - 1] >> 6 & 0x75ff);
-            input[1] = (~input[0] >> 1 & 0x9c) + 5;
+            input[0] = (input[input.Length - 1] << 2 & 0x3fd)+128;
+            input[1] = (~input[0] >> 1 & 0x9c) + 133;
             for (int i = 2; i < input.Length; i++)
             {
-                input[i] = (input[i - 1] << 5 * (~input[i - 1] >> 8) + (~input[i - 2] & 0xc6f)) * 0x675c6f - i;
+                input[i] = (input[i - 1] << 5 + 2*(~input[i - 1] >> 8) + (~input[i - 2] & 0xc6f)) + 0x3f - i;
             }
         }
         /// <summary>
@@ -54,11 +54,11 @@ namespace HashLib
         /// <param name="input">输入/输出数据，In/Out。</param>
         private void hash2(int seed, ref int[] input)
         {
-            input[0] = (input[input.Length - 1] >> 6 & 0x75ff) + 3 * seed;
-            input[1] = (~input[0] >> 1 & 0x9c + ~-seed) + 5;
+            input[0] = (input[input.Length - 1] << 2 & 0x3fd) + 3 * seed + 128;
+            input[1] = (~input[0] >> 1 & 0x9c + ~-seed) + 133;
             for (int i = 2; i < input.Length; i++)
             {
-                input[i] = (input[i - 1] << 5 * (~input[i - 1] >> 8) + (~input[i - 2] & 0xc6f)) * 0x675c6f - i + (seed & 0x2f) / 4;
+                input[i] = (input[i - 1] << 5 + 2*(~input[i - 1] >> 8) + (~input[i - 2] & 0xc6f)) + 0x3f - i + (seed & 0x2f) / 4;
             }
         }
         /// <summary>
@@ -110,8 +110,15 @@ namespace HashLib
             }
             s = s.OrderBy(x => Guid.NewGuid()).ToArray();
             hash(ref s);
-            var temp4 = s.Take(OutputArraryLen).ToArray();
-            long[] result = Array.ConvertAll(temp4, new Converter<int, long>((i) => { return Convert.ToInt64(i); }));
+            var temp3 = s.Reverse().ToArray();
+            hash(ref temp3);
+            var temp4 = new int[s.Length+temp3.Length+30];
+            Array.Copy(s, temp4, s.Length);
+            Array.Copy(temp3, temp4, temp3.Length);
+            temp4 = temp4.OrderBy(x => Guid.NewGuid()).ToArray();
+            hash(ref temp4);
+            var temp5 = temp4.Take(OutputArraryLen).ToArray();
+            long[] result = Array.ConvertAll(temp5, new Converter<int, long>((i) => { return Convert.ToInt64(i); }));
             return result;
         }
         /// <summary>
@@ -154,9 +161,13 @@ namespace HashLib
         {
             byte[] salt = Guid.NewGuid().ToByteArray();
             int[] vs = Array.ConvertAll(salt, new Converter<byte, int>((b) => Convert.ToInt32(b)));
-            int[] temp = new int[input.Length + salt.Length + 1];
-            Array.Copy(input, temp, input.Length);
-            Array.Copy(vs, 0, temp, input.Length - 1, vs.Length);
+            Random random = new Random(DateTime.Now.Millisecond*100);
+            int[] ts = {random.Next()/100 };
+            int[] temp = new int[input.Length + salt.Length + ts.Length + 1];
+            Array.Copy(input,temp,input.Length);
+            Array.Copy(vs,temp,vs.Length);
+            Array.Copy(ts,temp,ts.Length);
+            temp = temp.OrderBy(x => Guid.NewGuid()).ToArray();
             return hash2(temp);
         }
         /// <summary>
