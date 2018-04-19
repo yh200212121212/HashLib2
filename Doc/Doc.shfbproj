@@ -16,7 +16,7 @@
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
     <OutputPath>Help\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
-    <Language>zh-CN</Language>
+    <Language>en-US</Language>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic, Visual Basic Usage, Managed C++, F#</SyntaxFilters>
     <PresentationStyle>VS2013</PresentationStyle>

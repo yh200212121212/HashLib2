@@ -71,9 +71,10 @@ namespace HashLib
             int[] temp1 = input;
             int[] temp2 = input;
             int[] s = new int[input.Length * 2 * N + 20];
+            Random random = new Random(DateTime.Now.Millisecond * 100);
             for (int i = 0; i < N; i++)
             {
-                hash2(i & 0x4f + i << 2, ref temp1);
+                hash2(i & 0x4f - random.Next(), ref temp1);
                 if (i == 0)
                 {
                     for (int j = 0; j < temp1.Length; j++)
@@ -91,7 +92,7 @@ namespace HashLib
             }
             for (int i = 0; i < N; i++)
             {
-                hash2(~i ^ -0x5a, ref temp2);
+                hash2(i&random.Next(), ref temp2);
                 if (i == 0)
                 {
                     for (int j = 0; j < temp2.Length; j++)
