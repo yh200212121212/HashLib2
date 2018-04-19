@@ -5,10 +5,10 @@
  * This code is licensed under the MIT License.
  *
  * Description: This is the implementation of the hash algorithm I invented.
- * Since  : 2017-4-15
+ * Since  : 2018-4-15
  * Author : yh20021212
- * Version: 1.1.1
- * Update : 2018-4-15
+ * Version: 1.1.3
+ * Update : 2018-4-19
 ------------------------------------------------------------------------------------------------------------------------
 The MIT License (MIT)
 Copyright © 2018 <copyright holders>
@@ -19,12 +19,48 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 */
 namespace HashLib3
 {
+    /// <summary>
+    /// 对外暴露的我的哈希算法接口
+    /// </summary>
     public interface IHashLib
     {
-        int[] hash(int[] input);
-        void hash(ref int[] input);
-        int[] hash(string str);
-        int[] hash_salt(int[] input);
-        int[] hash_salt(string str);
+        /// <summary>
+        /// 对外公开的哈希方法之一
+        /// </summary>
+        /// <param name="input">输入数据</param>
+        /// <returns>长度为常量OutputArraryLen的结果</returns>
+        long[] hash2(int[] input);
+        /// <summary>
+        /// 对外公开的哈希方法之一
+        /// </summary>
+        /// <param name="str">输入字符串</param>
+        /// <returns>长度为常量OutputArraryLen的结果</returns>
+        long[] hash2(string str);
+        /// <summary>
+        /// 对外公开的哈希方法之一
+        /// </summary>
+        /// <param name="str">输入字符串</param>
+        /// <param name="o">重载对象，无意义</param>
+        /// <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        string hash2(string str, object o);
+        /// <summary>
+        /// 对外公开的加盐哈希方法之一
+        /// </summary>
+        /// <param name="input">输入数据</param>
+        /// <returns>长度为常量OutputArraryLen的结果</returns>
+        long[] hash_salt2(int[] input);
+        /// <summary>
+        /// 对外公开的加盐哈希方法之一
+        /// </summary>
+        /// <param name="str">输入字符串</param>
+        /// <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        long[] hash_salt2(string str);
+        /// <summary>
+        /// 对外公开的加盐哈希方法之一
+        /// </summary>
+        /// <param name="str">输入字符串</param>
+        /// <param name="o">重载对象，无意义</param>
+        /// <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        string hash_salt2(string str, object o);
     }
 }

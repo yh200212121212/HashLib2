@@ -1,0 +1,20 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>This is the implementation of the hash algorithm I invented.</title>
+</head>
+<body class="vendor-book">
+    <div class="details">
+        <span class="vendor">Vendor Name</span>
+        <span class="locale">zh-cn</span>
+        <span class="product">This is the implementation of the hash algorithm I invented.</span>
+        <span class="name">This is the implementation of the hash algorithm I invented.</span>
+    </div>
+    <div class="package-list">
+        <div class="package">
+            <!-- NOTE: The "name" span value cannot contain any periods! -->
+            <span class="name">Documentation</span>
+            <a class="current-link" href="Documentation.mshc">Documentation.mshc</a>
+        </div>
+    </div>
+</body>
+</html>

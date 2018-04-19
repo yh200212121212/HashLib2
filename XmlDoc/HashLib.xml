@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HashLib</name>
+    </assembly>
+    <members>
+        <member name="T:HashLib.HashLib">
+            <summary>
+             对外公开的我的哈希算法类，2N轮加密，输出长度为OutputArraryLen的数组或字符串。
+            </summary>
+        </member>
+        <member name="M:HashLib.HashLib.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HashLib.HashLib.hash(System.Int32[]@)">
+            <summary>
+            私有内部方法，用于在加密过程中最后再次哈希
+            </summary>
+            <param name="input">输入/输出数据，In/Out。</param>
+        </member>
+        <member name="M:HashLib.HashLib.hash2(System.Int32,System.Int32[]@)">
+            <summary>
+             私有内部方法，用于应用种子产生哈希
+            </summary>
+            <param name="seed">种子</param>
+            <param name="input">输入/输出数据，In/Out。</param>
+        </member>
+        <member name="M:HashLib.HashLib.hash2(System.Int32[])">
+            <summary>
+            对外公开的哈希方法之一
+            </summary>
+            <param name="input">输入数据</param>
+            <returns>长度为常量OutputArraryLen的结果</returns>
+        </member>
+        <member name="M:HashLib.HashLib.hash2(System.String)">
+            <summary>
+            对外公开的哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <returns>长度为常量OutputArraryLen的结果</returns>
+        </member>
+        <member name="M:HashLib.HashLib.hash2(System.String,System.Object)">
+            <summary>
+            对外公开的哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <param name="o">重载对象，无意义</param>
+            <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        </member>
+        <member name="M:HashLib.HashLib.hash_salt2(System.Int32[])">
+            <summary>
+            对外公开的加盐哈希方法之一
+            </summary>
+            <param name="input">输入数据</param>
+            <returns>长度为常量OutputArraryLen的结果</returns>
+        </member>
+        <member name="M:HashLib.HashLib.hash_salt2(System.String)">
+            <summary>
+            对外公开的加盐哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        </member>
+        <member name="M:HashLib.HashLib.hash_salt2(System.String,System.Object)">
+            <summary>
+            对外公开的加盐哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <param name="o">重载对象，无意义</param>
+            <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        </member>
+        <member name="F:HashLib.HashLib.OutputArraryLen">
+            <summary>
+            输出数组长度
+            </summary>
+        </member>
+        <member name="F:HashLib.HashLib.N">
+            <summary>
+            算法中的半轮数
+            </summary>
+        </member>
+        <member name="T:HashLib.IHashLib">
+            <summary>
+            对外暴露的我的哈希算法接口
+            </summary>
+        </member>
+        <member name="M:HashLib.IHashLib.hash2(System.Int32[])">
+            <summary>
+            对外公开的哈希方法之一
+            </summary>
+            <param name="input">输入数据</param>
+            <returns>长度为常量OutputArraryLen的结果</returns>
+        </member>
+        <member name="M:HashLib.IHashLib.hash2(System.String)">
+            <summary>
+            对外公开的哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <returns>长度为常量OutputArraryLen的结果</returns>
+        </member>
+        <member name="M:HashLib.IHashLib.hash2(System.String,System.Object)">
+            <summary>
+            对外公开的哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <param name="o">重载对象，无意义</param>
+            <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        </member>
+        <member name="M:HashLib.IHashLib.hash_salt2(System.Int32[])">
+            <summary>
+            对外公开的加盐哈希方法之一
+            </summary>
+            <param name="input">输入数据</param>
+            <returns>长度为常量OutputArraryLen的结果</returns>
+        </member>
+        <member name="M:HashLib.IHashLib.hash_salt2(System.String)">
+            <summary>
+            对外公开的加盐哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        </member>
+        <member name="M:HashLib.IHashLib.hash_salt2(System.String,System.Object)">
+            <summary>
+            对外公开的加盐哈希方法之一
+            </summary>
+            <param name="str">输入字符串</param>
+            <param name="o">重载对象，无意义</param>
+            <returns>以逗号分割的，长度为常量OutputArraryLen的字符串结果，类似于："1,2,3"。</returns>
+        </member>
+    </members>
+</doc>
